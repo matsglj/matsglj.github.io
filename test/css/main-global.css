@@ -1,5 +1,24 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-Light.woff') format('woff'),
+       url('Montserrat-Light.ttf') format('truetype');
+       font-weight: 300
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-Regular.woff') format('woff'),
+       url('Montserrat-Regular.ttf') format('truetype');
+       font-weight: 400
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-SemiBold.woff') format('woff'),
+       url('Montserrat-SemiBold.ttf') format('truetype');
+       font-weight: 600
+}
+
 * {
-    font-family:'Lato',sans-serif
+    font-family:'Montserrat',sans-serif
 }
 
 body,html {
@@ -8,3 +27,24 @@ body,html {
     background:#fff
 }
 
+h1 {
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+h3 {
+  color: gray;
+}
+
+p {
+  color: black;
+  font-weight: 400;
+}
+
+small {
+  color: black;
+  font-weight: 300;
+}

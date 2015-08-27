@@ -1,0 +1,454 @@
+/* DESKTOP SIZE CSS*/
+@media (min-width: 992px) {
+
+
+.indenting_links li a:hover {
+    padding-right:7px;
+    -webkit-transition: padding-right 150ms ease-out;
+    -moz-transition: padding-right 150ms ease-out;
+    -o-transition: padding-right 150ms ease-out;
+    transition: padding-right 150ms ease-out;
+}
+
+
+
+
+
+
+h1.pagetitle {
+    font-size:4em
+}
+
+.tlt{
+visibility: hidden;
+
+}
+p.pagetitle {
+    font-weight:300;
+    font-size:1.4em;
+    text-align:left
+}
+
+h2.pagetitle {
+    text-align:left;
+    font-size:2em;
+    font-weight:400
+}
+
+p.pagetitle.left {
+    font-weight:300;
+    font-size:1.4em;
+    text-align:left
+}
+
+p.pagetitle.right {
+    font-weight:300;
+    font-size:1.4em;
+    text-align:right
+}
+
+.zoom {
+    display:inline-block;
+    position:relative
+}
+
+.zoom img {
+    display:block
+}
+
+.zoom img::selection {
+    background-color:transparent
+}
+
+#what {
+    position:fixed
+}
+
+h5.pagetitle {
+    text-align:center;
+    padding-top:30px;
+    font-weight:300;
+    font-size:6em;
+    margin:0
+}
+
+#mainwindow h1 {
+    text-align:center;
+    padding-top:30px;
+    font-weight:300;
+    font-size:4em;
+    margin:0
+}
+
+
+#mainwindow h3 {
+    text-align:left;
+    padding-top:10px;
+    font-weight:300;
+    font-size:5em;
+    margin:0
+}
+
+
+#subheader {
+
+
+font-weight:300; font-size:1.7em; text-align: left;
+
+
+}
+
+
+
+#mainwindow h4 {
+    text-align:left;
+    font-weight:300
+}
+
+
+#navbarright {
+    display:inline-block
+}
+.zoomdesktoponly {
+    visibility:visible;
+}
+
+.throbber{
+padding-right: 300px;
+padding-bottom: 50vh;
+}
+#mobilenav {
+    display:none
+}
+
+.covercaption {
+
+
+padding-left:15px; text-align:center;
+padding-bottom: 0px;
+height:500px; overflow:hidden ; padding-left: 0px; padding-right: 0px;
+
+}
+
+#projecttitle {
+
+    font-size:5em;text-align: left;
+}
+
+#navigation{
+
+    
+}
+
+
+.appearonscroll {
+    opacity:0
+}
+
+.centermobileonly {
+    text-align:left
+}
+
+.projectimgfloatleft {
+  max-height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.projectimgfloatright {
+  max-height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.projectformatd {
+    margin-left:0;
+    margin-right:0;
+    overflow:hidden
+}
+
+.square {
+    height:9vw;
+    width:9vw;
+    border-style:none;
+    border-width:1px
+}
+
+.headerimage {
+    max-height:300px;
+    margin:0 auto;
+    float:right;
+    overflow:hidden
+}
+
+
+.fundologyimage {
+
+
+ position: absolute; bottom: 0; float: left; left: 10%; max-height: 80%; max-width: 80%; padding-bottom: 50px
+
+
+
+}
+.medcapimage {
+
+
+ 
+
+
+
+
+
+  position: absolute;
+  bottom: 0;
+  float: left;
+  left: 25%;
+  max-height: 100%;
+  max-width: 100%;
+  padding-bottom: 0px;
+  padding-top: 50px;
+
+}
+
+.epicimage{
+
+  position: absolute;
+  bottom: 0;
+  float: left;
+  left: 10%;
+  max-height: 80%;
+  max-width: 80%;
+  padding-bottom: 50px;
+  padding-top: 0px;
+
+
+}
+
+
+.barliftimage{
+
+position: relative;
+  bottom: 0;
+  left: 0%;
+  max-height: 90%;
+  max-width: 90%;
+  padding-bottom: 0px;
+  padding-top: 40px;
+
+}
+
+
+
+
+.squareinsquare {
+    height:100%;
+    width:100%;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-right:2%;
+    padding-left:2%
+}
+
+.textinsquare {
+    text-align:center;
+    line-height:.4em;
+    text-color:rgba(100,100,100,0.3)
+}
+
+.iam {
+    height:auto;
+    width:auto;
+    z-index:1000;
+    opacity:1;
+    background:#fff;
+    color:#000;
+    font-size:1.5em;
+    padding-top:10vh;
+    font-weight:300;
+    text-align:center;
+    position:fixed;
+    visibility:visible;
+    left:300px;
+    right:0;
+    top:0;
+    bottom:0
+}
+
+#mainwindow {
+    background-color:#fff;
+    display:block;
+    padding-top:0;
+    padding-bottom:0;
+    padding-right:0;
+    padding-left:310px;
+    margin:0;
+    right:0;
+    height:100vh
+}
+
+.name h1 {
+    line-height:100%;
+    margin-bottom:0;
+    margin-top:0;
+    font-size:4.5em;
+    font-weight:100;
+    text-align:right;
+    color:#363636;
+    list-style-type:none
+}
+
+.name h2 {
+    line-height:100%;
+    margin-bottom:0;
+    margin-top:0;
+    font-size:1.3em;
+    font-weight:100;
+    text-align:right;
+    color:#363636;
+    list-style-type:none
+}
+
+.name h3 {
+    line-height:100%;
+    margin-top:0;
+    margin-bottom:30px;
+    font-size:1.3em;
+    font-weight:100;
+    text-align:right;
+    color:#363636;
+    list-style-type:none
+}
+
+.entypo3em {
+    font-family:'EntypoRegular';
+    font-size:2.8em;
+    line-height:20px
+}
+
+a {
+    text-decoration:none!important
+}
+
+a:hover {
+    text-decoration:none!important
+}
+
+a:before {
+    text-decoration:none!important
+}
+
+a:after {
+    text-decoration:none!important
+}
+
+#navbarright {
+    width:300px;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    padding:30px;
+    margin:0;
+    background-color:#fff;
+    z-index:100
+}
+
+#navbarright li {
+    text-align:right;
+    list-style-type:none
+}
+
+#navbarright ul {
+    text-align:right;
+    padding:0;
+    margin:0;
+    font-size:1em;
+    font-weight:400
+}
+
+#navbarright ul ul {
+    text-align:right;
+    padding-top:10px;
+    padding-right:0;
+    padding-left:0;
+    padding-bottom:0;
+    margin:0;
+    font-size:.8em;
+    font-weight:300
+}
+
+#navbarright ul li {
+    padding-top:5px;
+    padding-right:0;
+    padding-left:0;
+    padding-bottom:0
+}
+
+.active {
+    font-weight:400;
+    color:#363636;
+    text-decoration:none!important
+}
+
+.inactive {
+    color:#7D7D7D
+}
+
+.activemain {
+    color:#363636
+}
+
+.inactivemain {
+    color:#7D7D7D
+}
+
+.activetitle {
+    color:#363636
+}
+
+.inactivetitle {
+    color:#7D7D7D
+}
+
+.active:hover {
+    color:#000;
+    text-decoration:none!important
+}
+
+.inactive:hover {
+    color:#000;
+    text-decoration:none!important
+}
+
+#lastlist {
+    margin-bottom:25px
+}
+
+.desktopcontactmenu ul li span {
+    font-size:2.4em;
+    color:#8D8D8D;
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:5px
+}
+
+.projectmargins {
+    padding-left:20px;
+    padding-right:60px;
+    padding-bottom:0;
+    padding-top:0
+}
+
+.relativewhenmobile{
+
+position: static;
+
+
+}
+
+
+
+
+}
+
+/* END OF DESKTOP SIZE CSS*/

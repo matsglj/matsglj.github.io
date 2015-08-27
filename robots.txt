@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /UWCENV/
+Disallow: /matsglj/UWCENV/
+Disallow: /matsglj/images/

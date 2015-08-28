@@ -44,7 +44,7 @@ h3 {
 
 p {
   color: black;
-  font-weight: 400;
+  font-weight: 300;
   margin-top: 0px;
 }
 
@@ -56,6 +56,34 @@ small {
 
 img {
 width: 100%;
+}
+
+#contacticons a, a:hover, a:visited {
+  text-decoration: none;
+}
+
+#contacticons a:hover {
+  color: #888;
+}
+
+#contacticons a:visited {
+  color: #333;
+}
+
+#contacticons a {
+  color: #333;
+}
+
+#contacticons i {
+  font-size: 23px;
+  padding-right: 7px;
+}
+#about a {
+  color: black;
+}
+
+#about a:hover {
+  color: #888;
 }
 
 #about {

@@ -1,6 +1,9 @@
 /* DESKTOP SIZE CSS*/
 @media (min-width: 992px) {
-
+#about {
+  margin-top: 30vh;
+  max-width: 650px
+}
 }
 
 /* END OF DESKTOP SIZE CSS*/

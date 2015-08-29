@@ -1,7 +1,13 @@
 /* MOBILE SIZE CSS*/
 @media (max-width: 991px) {
-
-
+#about {
+  margin-top: 30px;
+  max-width: 350px;
+}
+#about-bio {
+  margin-left: 15px;
+  margin-right: 15px;
+}
 }
 
 /* END OF MOBILE SIZE CSS*/

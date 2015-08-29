@@ -16,6 +16,12 @@
        url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
        font-weight: 600
 }
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.woff') format('woff'),
+       url('../fonts/Montserrat-Bold.ttf') format('truetype');
+       font-weight: 800
+}
 
 * {
     font-family:'Montserrat',sans-serif
@@ -29,7 +35,9 @@ body,html {
 
 h1 {
   color: black;
+  font-weight: 800;
   margin-top: 0px;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -46,6 +54,7 @@ p {
   color: black;
   font-weight: 300;
   margin-top: 0px;
+  margin-bottom: 15px;
 }
 
 small {
@@ -78,8 +87,9 @@ width: 100%;
   font-size: 23px;
   padding-right: 7px;
 }
-#about a {
+#about a, #about a i {
   color: black;
+  font-weight: 500;
 }
 
 #about a:hover {

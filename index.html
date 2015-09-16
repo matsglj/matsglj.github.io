@@ -44,6 +44,20 @@
     ga('create', 'UA-41988093-1', 'auto');
     ga('send', 'pageview');
     </script>
+    <script>
+		/**
+		* Function that tracks a click on an outbound link in Google Analytics.
+		* This function takes a valid URL string as an argument, and uses that URL string
+		* as the event label.
+		*/
+		var trackOutboundLink = function(url) {
+		   ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+		     function () {
+		     document.location = url;
+		     }
+		   });
+		}
+	</script>
 </head>
 <body>
     <div id="about" class="container">
@@ -63,27 +77,27 @@
                         <i class="icon ion-email">
                         </i>
                     </a>
-                    <a href="http://www.linkedin.com/in/matsglj">
+                    <a href="http://www.linkedin.com/in/matsglj" onclick="trackOutboundLink('http://www.linkedin.com/in/matsglj'); return false;">
                         <i class="icon ion-social-linkedin-outline">
                         </i>
                     </a>
-                    <a href="http://www.dribbble.com/matsglj">
+                    <a href="http://www.dribbble.com/matsglj" onclick="trackOutboundLink('http://www.dribbble.com/matsglj'); return false;">
                         <i class="icon ion-social-dribbble-outline">
                         </i>
                     </a>
-                    <a href="http://www.github.com/matsglj">
+                    <a href="http://www.github.com/matsglj" onclick="trackOutboundLink('http://www.github.com/matsglj'); return false;">
                         <i class="icon ion-social-github">
                         </i>
                     </a>
-                    <a href="http://www.instagram.com/matsglj">
+                    <a href="http://www.instagram.com/matsglj" onclick="trackOutboundLink('http://www.instagram.com/matsglj'); return false;">
                         <i class="icon ion-social-instagram-outline">
                         </i>
                     </a>
-                    <a href="http://www.flickr.com/photos/matsglj">
+                    <a href="http://www.flickr.com/photos/matsglj" onclick="trackOutboundLink('http://www.flickr.com/photos/matsglj'); return false;">
                         <i class="icon ion-camera">
                         </i>
                     </a>
-                    <a href="http://www.soundcloud.com/matsglj">
+                    <a href="http://www.soundcloud.com/matsglj" onclick="trackOutboundLink('http://www.soundcloud.com/matsglj'); return false;">
                         <i class="icon ion-music-note">
                         </i>
                     </a>

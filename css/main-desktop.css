@@ -1,17 +1,24 @@
 /* DESKTOP SIZE CSS*/
 @media (min-width: 992px) {
-#about {
-  margin-top: 30vh;
-  max-width: 675px;
-}
+	h1 {
+	  color: black;
+	  font-weight: 800;
+	  margin-top: 25px;
+	  margin-bottom: 10px;
+	}
 
-#contacticons i {
-  font-size: 23px;
-  padding-right: 7px;
-}
-br.mobile {
-  display: none; 
-}
-}
+	#about {
+	  margin-top: 30vh;
+	  max-width: 675px;
+	}
 
+	#contacticons i {
+	  font-size: 23px;
+	  padding-right: 7px;
+	}
+
+	br.mobile {
+	  display: none; 
+	}
+}
 /* END OF DESKTOP SIZE CSS*/

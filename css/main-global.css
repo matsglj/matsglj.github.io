@@ -23,71 +23,69 @@
        font-weight: 800
 }
 
-* {
-    font-family:'Montserrat',sans-serif
-}
-
-body,html {
-    margin:0;
-    padding:0;
-    background:#fff
+body, html {
+  font-family: 'Montserrat', sans-serif;
+  background: #fff;
 }
 
 h1 {
   color: black;
+  font-size: 30px;
   font-weight: 800;
-  margin-top: 0px;
+  margin-top: 25px;
   margin-bottom: 15px;
 }
 
 h2 {
   color: black;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 h3 {
   color: gray;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 p {
   color: black;
   font-weight: 300;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 15px;
 }
 
 small {
   color: black;
   font-weight: 300;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 img {
-width: 100%;
+  width: 100%;
 }
 
-#contacticons a, a:hover, a:visited {
-  text-decoration: none;
-}
-
-#contacticons i:hover {
-  color: #888;
-}
-
-#contacticons a:visited {
-  color: #333;
-}
-
-#contacticons a {
-  color: #333;
-}
-
-#about a, #about a i {
+#about a,
+#about a i {
   color: black;
   font-weight: 500;
 }
 
 #about a:hover {
+  color: #888;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#contacticons a,
+#contacticons a:visited {
+  color: #333;
+}
+
+#contacticons a,
+#contacticons a:hover,
+#contacticons a:visited {
+  text-decoration: none;
+}
+
+#contacticons i:hover {
   color: #888;
 }

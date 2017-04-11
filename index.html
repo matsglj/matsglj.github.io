@@ -12,7 +12,6 @@
 
   <!-- CSS -->
   <link href="css/animate.min.css" rel="stylesheet" type="text/css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="css/main-global.css" rel="stylesheet" type="text/css">
   <link href="css/main-mobile.css" rel="stylesheet" type="text/css">
   <link href="css/main-desktop.css" rel="stylesheet" type="text/css">
@@ -52,38 +51,33 @@
   </script>
 </head>
 <body>
-  <div id="about" class="container">
-    <div class="row animated fadeIn">
-      <div id="about-photo" class="col-md-4">
-        <img src="images/mats.jpg" alt="photo of me">
-      </div>
-      <div id="about-bio" class="col-md-8">
-        <div class="row">
-          <h1> Mats G L Johansen</h1>
-        </div>
-        <div class="row">
-          <p> Hi. I'm a product designer with a passion for technology, splitting my time between Chicago and Oslo, Norway. I currently work at <a href="https://www.huddly.com">Huddly</a>. Proud Northwestern &amp; UWC Atlantic College alumnus.</p>
-        </div>
-        <div class="row" id="contacticons">
-          <a href="mailto:contact@matsglj.com">
-            <i class="icon ion-email"></i>
-          </a>
-          <a href="http://www.linkedin.com/in/matsglj" onclick="trackOutboundLink('http://www.linkedin.com/in/matsglj'); return false;">
-            <i class="icon ion-social-linkedin-outline"></i>
-          </a>
-          <a href="http://www.dribbble.com/matsglj" onclick="trackOutboundLink('http://www.dribbble.com/matsglj'); return false;">
-            <i class="icon ion-social-dribbble-outline"></i>
-          </a>
-          <a href="http://www.github.com/matsglj" onclick="trackOutboundLink('http://www.github.com/matsglj'); return false;">
-            <i class="icon ion-social-github"></i>
-          </a>
-        </div>
+  <div id="about" class="animated fadeIn">
+    <div id="about-photo">
+      <img src="images/mats.jpg" alt="photo of me">
+    </div>
+    <div id="about-bio">
+      <h1> Mats G L Johansen</h1>
+      <p> Hi. I'm a product designer with a passion for technology, splitting my time between Chicago and Oslo, Norway. I currently work at <a href="https://www.huddly.com">Huddly</a>. Proud Northwestern &amp; UWC Atlantic College alumnus.</p>
+      <div id="contacticons">
+        <a href="mailto:contact@matsglj.com">
+          <i class="icon ion-email"></i>
+        </a>
+        <a href="http://www.linkedin.com/in/matsglj" onclick="trackOutboundLink('http://www.linkedin.com/in/matsglj'); return false;">
+          <i class="icon ion-social-linkedin-outline"></i>
+        </a>
+        <a href="http://www.dribbble.com/matsglj" onclick="trackOutboundLink('http://www.dribbble.com/matsglj'); return false;">
+          <i class="icon ion-social-dribbble-outline"></i>
+        </a>
+        <a href="http://www.instagram.com/matsglj" onclick="trackOutboundLink('http://www.instagram.com/matsglj'); return false;">
+          <i class="icon ion-social-instagram-outline"></i>
+        </a>
+        <a href="http://www.github.com/matsglj" onclick="trackOutboundLink('http://www.github.com/matsglj'); return false;">
+          <i class="icon ion-social-github"></i>
+        </a>
       </div>
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script>
 		var trackOutboundLink = function(url) {
 			ga('send', 'event', 'outbound', 'click', url, {'hitCallback':

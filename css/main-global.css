@@ -26,6 +26,7 @@
 body, html {
   font-family: 'Montserrat', sans-serif;
   background: #fff;
+  margin: 0;
 }
 
 h1 {
@@ -51,6 +52,8 @@ p {
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 small {
@@ -63,13 +66,13 @@ img {
   width: 100%;
 }
 
-#about a,
-#about a i {
+a,
+a i {
   color: black;
   font-weight: 500;
 }
 
-#about a:hover {
+a:hover {
   color: #888;
   cursor: pointer;
   text-decoration: none;
